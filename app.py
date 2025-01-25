@@ -92,7 +92,7 @@ This Streamlit app demonstrates the performance of three different machine learn
         ax.axis('off')
     st.pyplot(fig)
 
-    st.markdown("## Clcik on the tabs below to view classifier performance:")
+    st.write("Click on the tabs below to view classifier performance:")
 
     # Create tabs
     tab1, tab2, tab3 = st.tabs(["Naïve Bayes", "SVM", "KNN"])
